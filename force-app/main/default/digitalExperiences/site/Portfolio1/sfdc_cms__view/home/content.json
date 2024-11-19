@@ -21,20 +21,9 @@
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : {
-                "backgroundColor" : "",
-                "dxpStyle" : { },
-                "isLinkable" : false,
-                "linkAssistiveText" : "",
-                "paddingHorizontal" : "none",
-                "paddingVertical" : "none",
-                "text" : "This is our portfolio site!",
-                "textAlign" : "center",
-                "textDecoration" : "{}",
-                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
-              },
-              "definition" : "dxp_base:textBlock",
-              "id" : "83d45e1e-2f33-4c9c-b32a-2c1a7d158edf",
+              "attributes" : { },
+              "definition" : "c:hero",
+              "id" : "8274753e-e836-42ab-a54c-ffa121b66ece",
               "type" : "component"
             } ],
             "id" : "d986c4b7-4328-4bc2-b6b5-35b82cc59123",
