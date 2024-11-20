@@ -47,7 +47,8 @@ export default class ContactMeButton extends LightningElement {
       });
       this.snackbar.showSnackBar("Your request has been received.");
     } catch (error) {
-      console.log(error);
+      this.snackbar.showSnackBar("Unable to accept contact request.");
+      console.log(JSON.stringify(error));
     } finally {
       this.closeDialog();
     }

@@ -25,6 +25,12 @@
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:navMenu",
+              "id" : "badf7b13-bb3a-43de-bd33-90a8470b8376",
+              "type" : "component"
+            } ],
             "id" : "1b7013a7-8aae-4092-859d-2d2fc18cfb6f",
             "name" : "headerSection",
             "title" : "Theme Header",
@@ -55,6 +61,22 @@
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "This site built Lightning Web Components running on Lightning Web Runtime.",
+                "textAlign" : "center",
+                "textDecoration" : "{\"italic\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "079f07a5-f393-4305-8386-f5c957c09990",
+              "type" : "component"
+            } ],
             "id" : "290e54a6-39fe-4731-b210-cd206c197219",
             "name" : "footerSection",
             "title" : "Theme Footer",
