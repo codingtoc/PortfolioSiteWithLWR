@@ -16,5 +16,13 @@
         <members>*</members>
         <name>DigitalExperienceConfig</name>
     </types>
+    <types>
+        <members>Portfolio Profile</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Lead</members>
+        <name>CustomObject</name>
+    </types>
     <version>62.0</version>
 </Package>
