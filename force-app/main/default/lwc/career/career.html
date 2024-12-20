@@ -12,10 +12,13 @@
         <h3 class="blue_color font16 fontWeight700">
           {workExperience.duration}
         </h3>
-        <div class="slds-var-m-bottom_xx-large blue_color font16">
+        <div class="blue_color font16">
           <a href={workExperience.companyUrl} target="_blank">
             {workExperience.companyName} {workExperience.role}
           </a>
+        </div>
+        <div class="slds-var-m-bottom_xx-large">
+          <p>{workExperience.description}</p>
         </div>
       </section>
     </template>
